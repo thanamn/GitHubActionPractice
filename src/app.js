@@ -14,7 +14,7 @@ const monthOfTheYear = (date = new Date()) => {
 try {
     document.getElementById('day').innerText = dayOfTheWeek();
 } catch(err) {}
-
+// add something
 
 exports.dayOfTheWeek = dayOfTheWeek;
 exports.monthOfTheYear = monthOfTheYear;
